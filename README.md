@@ -2,7 +2,7 @@
 
 [vrc 公式サイト](https://vrchat.com/home)日本語化プロジェクトの翻訳データ置き場です。
 
-各ディレクトリには翻訳前後の文字列データと翻訳対象要素の場所を示すパスが含まれており、これらを[xpr-tsr-merger](https://github.com/vrcalphabet/xpr-tsr-merger/releases/latest)でバンドルしたものを[vrc-translator](https://github.com/vrcalphabet/vrc-translator)で使用し、公式サイトを翻訳します。
+各ディレクトリには翻訳前後の文字列データと翻訳対象要素の場所を示すパスが含まれており、これらを[xpr-tsr-merger](https://github.com/vrcalphabet/xpr-tsr-merger/releases/latest)でバンドルしたものをGitHub経由で[vrc-translator](https://github.com/vrcalphabet/vrc-translator)から使用し、公式サイトを翻訳します。
 
 xprファイルの仕様は[こちら](https://github.com/vrcalphabet/xpr-tsr-merger/blob/main/docs/xpr-documentation.md)で確認できます。
 
