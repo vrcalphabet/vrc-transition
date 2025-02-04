@@ -1,0 +1,34 @@
+@name LOGIN
+@includes {
+  /home/login
+}
+
+% ログイン画面
+FORM //form#login-form {
+  % タイトル
+  TITLE /h4 *
+  % ログイン失敗したとき
+  LOGIN_FAILED /div.e1cgibpb4[1] {
+    /div.e1cgibpb3[1]/div.e1cgibpb2[1]
+    /div.e1cgibpb1[1]
+  }
+  % 入力欄（ユーザ名・パスワード）
+  LOGIN_INPUT //input#username_email [placeholder]
+  LOGIN_INPUT //input#password [placeholder]
+  % パスワードを忘れた
+  LOGIN_FORGOT /div[4] * {
+    /a
+    /text()[1,4,6]
+  }
+  % ログインボタン
+  LOGIN_BUTTON /div.e7cdgnz2[1]/button.e7cdgnz1[1]
+  % アカウント作成ボタン
+  CREATE_ACCOUNT_BUTTON /a.e18c1r7j6[1]
+  % 他の種類のアカウントを使用しているか
+  USING_OTHER_ACCOUNTS /p[1] {
+    /text()[1]
+    /a[1]
+  }
+}
+% ワールド情報
+WORLD_INFO /div[2]/div[3]/p/strong[1] *
