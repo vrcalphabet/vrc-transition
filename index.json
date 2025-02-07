@@ -1,5 +1,5 @@
 {
   "$schema": "./schema.json",
-  "output": "docs/",
-  "ignore": ["docs"]
+  "input": "./src/",
+  "output": "./docs/"
 }
