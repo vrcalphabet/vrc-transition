@@ -1,0 +1,89 @@
+{
+  "NAV": {
+    "ABOUT": {
+      "About VRChat": "VRChatについて"
+    }
+  },
+  "BODY": {
+    "LEFT": {
+      "INSTANCE_TYPE": {
+        "- Public": " - パブリック",
+        "- Friends+": " - フレンド＋",
+        "- Friends": " - フレンド",
+        "- Invite+": " - インバイト＋",
+        "- Invite": " - インバイト",
+        "- Group Public": " - グループパブリック",
+        "- Group+": " - グループ＋",
+        "- Group": " - グループ"
+      },
+      "TITLE": {
+        "Created by:": "作者:",
+        "Locked Link:": "非公開のリンク:"
+      },
+      "COPY": {
+        "copy locked link": "非公開のリンクをコピーする"
+      },
+      "GET_LINK": {
+        "Get Unlocked Link": "公開リンクを作成する"
+      }
+    },
+    "RIGHT": {
+      "BUTTON": {
+        "Launch World": "ワールドを起動",
+        "Invite Me": "自分を招待"
+      }
+    }
+  },
+  "DESCRIPTION": {
+    "TITLE": {
+      "Description": "ワールドの説明"
+    },
+    "SHARE": {
+      "Share this world": "ワールドを共有する"
+    }
+  },
+  "MODAL": {
+    "GET_LINK": {
+      "TITLE": {
+        "Woah there! 😲": "ちょっと待って！"
+      },
+      "DESCRIPTION": {
+        "Unlocked Links allow ": "公開リンクを使用すると、",
+        "anyone": "誰もが",
+        "to join the instance. Be careful who you share this link with, and who they might share the link with in turn.": "インスタンスに参加できるようになります。リンクを共有する場合は、あなたや共有した相手が誰と共有するかに注意してください。",
+        "We do not recommend the use of Unlocked Links.": "公開リンクの使用は推奨しません！"
+      },
+      "LINK": {
+        "LABEL": {
+          "Unlocked Link:": "公開リンク: "
+        },
+        "BUTTON": {
+          "copy unlocked link": "公開リンクをコピーする"
+        }
+      }
+    },
+    "OPTIONS": {
+      "TITLE": {
+        "Link Options": "各リンクの説明"
+      },
+      "ROW": {
+        "LABEL": {
+          "Locked Link": "非公開のリンク",
+          "Unlocked Link": "公開リンク"
+        },
+        "DESCRIPTION": {
+          "This link will follow the instance rules. If the link is shared, others also follow the rules to join.": "このリンクは、インスタンスタイプに従います。リンクが共有されている場合は、他のユーザもインスタンスタイプに従います。",
+          "Friends+:": "フレンド＋: ",
+          "You must have a friend in the instance to join.": "参加するには、インスタンスにフレンドがいる必要があります。",
+          "Friends:": "フレンド: ",
+          "You must be friends with the instance creator to join.": "参加するには、インスタンス作成者とフレンドになっている必要があります。",
+          "Others:": "その他: ",
+          "Invite, Invite+, and Public instances are not affected by Locked Links.": "インバイト、インバイト＋、パブリックは公開リンクと同じ扱いになります。",
+          "A Locked Link to an Invite or Invite+ instance is only usable by you, so it might not be that useful.": "インバイト、インバイト＋の非公開のリンクはインスタンス作成者のみが使用できるため、あまり役に立たないかもしれません。",
+          "This link will ignore the instances rules. Anyone with this link can join the instance. If the link is shared, that person can join too.": "このリンクは、インスタンスタイプを無視します。リンクを持っている人は誰でもインスタンスに参加できます。リンクを共有した場合、その人も参加できます。",
+          "We do not recommend the usage of Unlocked Links.": "公開リンクの使用は推奨しません。"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@name LAUNCH
+@includes {
+  /home/launch
+}
+
+% ナビゲーション
+NAV /div[2]/div[1]/div[1] {
+  % vrchatについて
+  ABOUT /div[1]/div[2]/a[1]
+}
+% ワールド名など
+BODY /div[2]/div[1]/div[2]/div[1] {
+  LEFT /div[1] {
+    % インスタンスタイプ
+    INSTANCE_TYPE /h2[1]/text()[1]
+    % 作者とリンク
+    TITLE /span[1]/text()[1]
+    TITLE /div[1]/span[1]/text()[1]
+    % リンクをコピー
+    COPY /div[1]/button[1] [title]
+    % 公開リンクを取得
+    GET_LINK /div[2]/button[1]
+  }
+  RIGHT /div[2] {
+    BUTTON /h2[1]/a[1]
+    BUTTON /h2[2]/button[1]
+  }
+}
+% ワールドの説明
+DESCRIPTION /div[2]/div[1]/div[4]/div[1]/div[1]/div[1] {
+  TITLE /h4[1]
+  SHARE /div[1]/span[1]
+  SHARE /div[1]/div.e7cdgnz2[1]/button.e7cdgnz1[1] [title]
+}
+% モーダルウィンドウ
+MODAL ::/div[5]/div[1]/div[1]/div[1] {
+  % 公開リンクウィンドウ
+  GET_LINK /div[1] {
+    % タイトル
+    TITLE /h2[1]
+    % 説明
+    DESCRIPTION /div[1]/p[1] {
+      /text()[1,2] *
+      /span[1]
+      /strong[1]/text()[1]
+    }
+    % リンク
+    LINK /div[1]/h4[1] {
+      LABEL /span[1]
+      BUTTON /button[1] [title]
+    }
+  }
+  % 公開リンクと非公開のリンクの違い
+  OPTIONS /div[1] {
+    % タイトル
+    TITLE /h2[1]
+    % 項目
+    ROW /div[1]/div[1]/div[1,2]/div[2] * {
+      LABEL /h2[1]
+      DESCRIPTION /p[1]/text()
+      DESCRIPTION /p[1]/strong
+    }
+  }
+}
