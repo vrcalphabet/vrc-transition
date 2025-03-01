@@ -16,4 +16,5 @@ xprファイルの仕様は[こちら](https://github.com/vrcalphabet/xpr-tsr-me
   - [x] /home/forgot-email
     - 正しい手順を踏んでも確認メールが届かないため、メール内のリンク先のページは翻訳できません。
   - [x] /home/failedverify
+  - [x] /home/launch
   - etc...（随時追加予定）
