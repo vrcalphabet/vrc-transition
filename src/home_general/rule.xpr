@@ -1,0 +1,106 @@
+@name HOME_GENERAL
+@includes {
+  /home
+  /home/@p
+}
+@excludes {
+  /home/login
+  /home/forgot_email
+  /home/password
+  /home/register
+  /home/verify
+  /home/failedverify
+  /home/emailtwofactorauth
+  /home/launch
+}
+
+% ナビゲーション
+NAV //div#secondary-nav/div[2] {
+  % ロゴ
+  LOGO /div[1]/a[1] [title]
+  % 設定
+  SETTINGS /div[1]/a[2] [title]
+  % ボタン
+  BUTTONS /div[3]/a[1,2] * 'white-space:nowrap'
+  % 検索欄
+  SEARCH /div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/input[1] [placeholder]
+  % ログアウト
+  LOGOUT /div[3]/button[1] [title] 'width:150px'
+  LOGOUT /div[3]/button[1]/text()[1]
+}
+% メニュー
+WING_LEFT /div[2]/div[2]/div[1]/div[1]/div[1] {
+  USER /div.esgak1l21[1] {
+    STATUS /div.esgak1l8[1]/div.esgak1l7[1] [title]
+    STATUS /div.esgak1l6[1]/a[1]
+    PROFILE /div.esgak1l20[1]/a.esgak1l18[1]/div.esgak1l17[1]/div.esgak1l15[1]
+    CREDITS /div.esgak1l20[1]/div.esgak1l9[1]/div.esgak1l3[1]/a.esgak1l4[1]/span.e162vl8b0[1] [title]
+  }
+  WORLD /div.esgak1l21[1]/div.esgak1l20[2]/div.esgak1l5[1]/div[1]/div[1]/div[1]/h6[1]/a[1]/text()[4]
+  MENU /nav[1]/div[1] {
+    LIST_TITLE /a.e18dqzxk1 * [title]
+    LIST /a.e18dqzxk1[1]/div[1]/text()[1] 'white-space:nowrap;font-size:18px'
+    LIST /a.e18dqzxk1/div[1] * 'white-space:nowrap;font-size:18px'
+  }
+}
+% フレンド一覧
+WING_RIGHT //div#friendsSidebar {
+  FINDER /div.e1oqhh5q9[1] {
+    USER_LIST /div.e1oqhh5q8[1] {
+      /div[2]/span[1]
+      /div.e1oqhh5q1[1]/div.e1oqhh5q0 *
+    }
+    SEARCH /div.e1oqhh5q7[1]/input.e1buxcrw1[1] [placeholder]
+    _SORT_BUTTON /div.eccm7ds4[1] 'width:60%!important'
+    SORT /div.eccm7ds4[1]/div.eccm7ds6[1] {
+      BUTTON /button.eccm7ds5[1]/div.eccm7ds7[1] {
+        /div.eccm7ds2[1]
+        /div.eccm7ds2[1] [title]
+        /div.eccm7ds3[1]
+      }
+      DROPDOWN /div.eccm7ds1[1]/div.eccm7ds0 *
+      DROPDOWN /div.eccm7ds1[1]/div.eccm7ds0 * [title]
+    }
+  }
+  USERS /div.e1oqhh5q2[1]/div.e1oqhh5q5[1]/div.e1oqhh5q4[1]/div.e1oqhh5q3[1] {
+    LIST_STATUS /div.elcswtc2[1:3]/span.elcswtc1[1] *
+    USER /div.e176ivn221/div.e176ivn220[1] * {
+      LEFT /div.e176ivn223[1] {
+        PROFILE /a.e176ivn218[1]/div.e176ivn219[1]
+      }
+      RIGHT /div.e176ivn216[1] {
+        STATUS_TITLE /div.e176ivn222[1] {
+          /div.e1whw8n50[1] [title]
+          /div.e1whw8n51[1] [title]
+        }
+        WORLD_NAME /div.e176ivn211[1]
+        WORLD_NAME /div.e176ivn212[1]
+        WORLD_NAME /div.e176ivn213[1]
+        WORLD_NAME /div.e176ivn214[1]
+        STATUS_MESSAGE /div.e176ivn29[1]
+        STATUS_MESSAGE /div.e176ivn210[1]
+      }
+    }
+    INSTANCE /div.e176ivn221/div.e176ivn27[1]/div.e176ivn26[1] * {
+      LEFT /a.e176ivn24[1] {
+        OPEN /div.e176ivn25[1]
+      }
+      RIGHT /div.e176ivn23[1] {
+        COUNT /div.e176ivn222[1]/span[1]/svg.e9fqopp0[1]/title[1]
+        LOWER /div.e176ivn21[1] {
+          _COUNTRY_ICON /div[1] 'flex-shrink:0'
+          TYPE /div[2]
+          INVITE /button.e176ivn20[1]
+        }
+      }
+    }
+  }
+}
+% % 通知
+% MESSAGES {
+  
+% }
+% % 左下に出る通知
+% TOAST {
+  
+% }

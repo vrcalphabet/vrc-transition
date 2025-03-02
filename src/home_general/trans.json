@@ -1,0 +1,186 @@
+{
+  "NAV": {
+    "LOGO": {
+      "home": "ホームに戻る"
+    },
+    "SETTINGS": {
+      "profile settings": "プロフィール設定"
+    },
+    "BUTTONS": {
+      "Docs": "ドキュメント",
+      "Merch": "グッズ"
+    },
+    "SEARCH": {
+      "Search...": "ユーザーやワールドを検索..."
+    },
+    "LOGOUT": {
+      "Logout": "ログアウト"
+    }
+  },
+  "WING_LEFT": {
+    "USER": {
+      "STATUS": {
+        "Join me": "だれでもおいで",
+        "Online": "オンライン",
+        "Ask me": "きいてみてね",
+        "Do not disturb": "取り込み中",
+        "Offline": "オフライン"
+      },
+      "PROFILE": {
+        "Go To Profile": "プロフィールを開く"
+      },
+      "CREDITS": {
+        "VRChat Credits": "VRChatクレジット"
+      }
+    },
+    "WORLD": {
+      "Public": "パブリック",
+      "Friends+": "フレンド＋",
+      "Friends": "フレンド",
+      "Invite+": "インバイト＋",
+      "Invite": "インバイト",
+      "Group Public": "グループパブリック",
+      "Group+": "グループ＋",
+      "Group": "グループ"
+    },
+    "MENU": {
+      "LIST_TITLE": {
+        "home": "ホーム",
+        "locations": "現在地",
+        "groups": "グループ",
+        "download": "ダウンロード",
+        "worlds": "ワールド",
+        "My Worlds": "私のワールド",
+        "avatars": "アバター",
+        "Favorite Worlds": "お気に入りのワールド",
+        "Favorite Avatars": "お気に入りのアバター",
+        "Favorite Friends": "お気に入りのフレンド",
+        "gallery": "ギャラリー",
+        "marketplace": "マーケットプレイス",
+        "accountLink": "アカウントの連携",
+        "playermoderations": "モデレーション",
+        "subscriptions": "サブスクリプション"
+      },
+      "LIST": {
+        "Home": "ホーム",
+        "Join Friends": "フレンドに合流",
+        "Groups": "グループ",
+        "Download": "ダウンロード",
+        "Discover Worlds": "ワールドを探索",
+        "My Worlds": "私のワールド",
+        "Avatars": "アバター",
+        "Favorite Worlds": "お気に入りワールド",
+        "Favorite Avatars": "お気に入りアバター",
+        "Favorite Friends": "お気に入りフレンド",
+        "Gallery": "ギャラリー",
+        "Marketplace": "マーケットプレイス",
+        "Account Link": "アカウントの連携",
+        "Blocks & Mutes": "ブロックとミュート",
+        "Subscriptions": "サブスクリプション"
+      }
+    }
+  },
+  "WING_RIGHT": {
+    "FINDER": {
+      "USER_LIST": {
+        "All Friends (%s)": "全てのフレンド ($1)",
+        "Favorite Friends %S (%s)": "お気に入りのフレンド$1 ($2)"
+      },
+      "SEARCH": {
+        "Search Friends": "フレンドを検索"
+      },
+      "SORT": {
+        "BUTTON": {
+          "Sort By": "並び替え",
+          "Status": "ステータス順",
+          "Name": "名前順"
+        },
+        "DROPDOWN": {
+          "Status": "ステータス順",
+          "Name": "名前順"
+        }
+      }
+    },
+    "USERS": {
+      "LIST_STATUS": {
+        "In-World": "ワールド内 ",
+        "Active": "アクティブ ",
+        "Offline": "オフライン "
+      },
+      "USER": {
+        "LEFT": {
+          "PROFILE": {
+            "Go To Profile": "プロフィール\nを開く"
+          }
+        },
+        "RIGHT": {
+          "STATUS_TITLE": {
+            "Join Me - In-World": "だれでもおいで - ワールド内",
+            "Online - In-World": "オンライン - ワールド内",
+            "Ask Me - In-World": "きいてみてね - ワールド内",
+            "Do Not Disturb - In-World": "取り込み中 - ワールド内",
+            "Join Me - Active on Website": "だれでもおいで - ウェブサイトでアクティブ",
+            "Online - Active on Website": "オンライン - ウェブサイトでアクティブ",
+            "Ask Me - Active on Website": "きいてみてね - ウェブサイトでアクティブ",
+            "Do Not Disturb - Active on Website": "取り込み中 - ウェブサイトでアクティブ",
+            "Offline - Receives Mobile Notifications": "オフライン - 通知を受け取れます",
+            "Offline": "オフライン"
+          },
+          "WORLD_NAME": {
+            "Loading a world": "ワールドを読み込み中",
+            "In a private world": "プライベートなワールド",
+            "On website": "ウェブサイト上",
+            "Offline": "オフライン",
+            "Offline on Mobile": "モバイルでオフライン"
+          },
+          "STATUS_MESSAGE": {
+            "Join Me": "だれでもおいで",
+            "Online": "オンライン",
+            "Ask Me": "きいてみてね",
+            "Do Not Disturb": "取り込み中",
+            "Offline": "オフライン",
+            "%S years ago": "$1年前",
+            "a year ago": "1年前",
+            "%S months ago": "$1ヵ月前",
+            "a month ago": "1ヵ月前",
+            "%S days ago": "$1日前",
+            "a day ago": "1日前",
+            "%S hours ago": "$1時間前",
+            "an hour ago": "1時間前",
+            "%S minutes ago": "$1分前",
+            "a minute ago": "1分前",
+            "%S seconds ago": "$1秒前",
+            "a second ago": "1秒前"
+          }
+        }
+      },
+      "INSTANCE": {
+        "LEFT": {
+          "OPEN": {
+            "Open Instance": "インスタンス\nを見る"
+          }
+        },
+        "RIGHT": {
+          "COUNT": {
+            "Number of friends in instance": "インスタンス内にいるフレンドの数"
+          },
+          "LOWER": {
+            "TYPE": {
+              "Public": "パブリック",
+              "Friends+": "フレンド＋",
+              "Friends": "フレンド",
+              "Invite+": "インバイト＋",
+              "Invite": "インバイト",
+              "Group Public": "グループパブリック",
+              "Group+": "グループ＋",
+              "Group": "グループ"
+            },
+            "INVITE": {
+              "Invite Me": "自分を招待"
+            }
+          }
+        }
+      }
+    }
+  }
+}
