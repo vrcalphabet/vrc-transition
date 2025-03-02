@@ -9,6 +9,8 @@ xprファイルの仕様は[こちら](https://github.com/vrcalphabet/xpr-tsr-me
 ## 進捗表
 
 - [ ] 各ページの対応
+  - [x] /home_general
+    - 上部ナビゲーションメニュー、左右のウィングの翻訳です。
   - [x] /home/login
   - [x] /home/register
   - [x] /home/verify
