@@ -1,0 +1,25 @@
+{
+  "name": "vrc-transition",
+  "version": "1.0.0",
+  "description": "[vrc 公式サイト](https://vrchat.com/home)日本語化プロジェクトの翻訳データ置き場です。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "server": "npx http-server docs -p 8080 -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrcalphabet/vrc-transition.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vrcalphabet/vrc-transition/issues"
+  },
+  "homepage": "https://github.com/vrcalphabet/vrc-transition#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

@@ -1,3 +1,3 @@
 .vscode/
 .cspell/
-**/.prettierrc
+node_modules/
